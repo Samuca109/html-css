@@ -1,0 +1,28 @@
+body{
+   background-color: aqua;
+}
+h1{
+    color: rgb(0, 87, 8);
+}
+h1#principal{
+      text-align: center;
+      background-color: rgb(207, 253, 0);
+
+}
+h2{
+    color: rgb(228, 0, 0);
+}
+
+h2.basico{
+  color: gold;
+}
+.intermediario{
+  color: rgb(86, 18, 223);
+}
+
+.avançado{
+ color: rgb(0, 15, 0);
+}
+.destaque{
+    background-color: chartreuse;
+}

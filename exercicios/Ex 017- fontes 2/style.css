@@ -1,0 +1,12 @@
+ @charset "UTF-8";
+
+ p{
+     font-family: serif;
+ }
+
+ h2{
+     font-family: 'Courier New', Courier, monospace;
+ }
+ h1{
+     font-family: sans-serif;
+ }

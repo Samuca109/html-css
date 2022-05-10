@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* assim que se faz um comentario e sempre na linha abaixo da tag de abertura
+        */
+        body{
+            font-family: arial, serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline ;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content:  '[☆]';
+            text-decoration: none;
+        }
+        a::before{
+            content: '[☆]' ;
+        }
+        .especial{
+            background-color: aqua ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Persinalizando links</h1>
+ <ul>
+     <li><a href="https://github.com/" class="especial">Repositorio no git hub</a> 
+     <li><a href="https://www.cursoemvideo.com/cursos/" target="blank" class="especial">Curso em video </a> 
+     <li><a href="https://www.youtube.com/" >You tube</a>
+ </ul>
+
+
+
+
+
+</body>
+</html>

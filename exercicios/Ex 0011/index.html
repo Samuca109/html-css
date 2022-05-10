@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+ <p>Tente abrir esse site em varios dispositivos ou simplesmente diminua e aumente o tamanho do seu navegador
+ </p>
+<picture>
+
+    <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+    <img src="Imagens/foto-g.png" alt="Imagens flexiveis">
+</picture>
+
+<h1>Se usa o source media type para ajudar na dinamica</h1>
+<p> 
+    Olhar o video novamente e se usa a tag principal picture 
+</p>
+<h2>Nome das pastas</h2>
+<p>Sempre se deixa tudo em minusculo para nao dar problemas na hora de escrever os nomes das pastas dos codigos aqui</p>
+
+<h1>Reproduzindo Audios</h1>
+<p>Vamo aprender a reproduzir audios em HTML 5</p>
+<audio src="audios/audio infantil .mp3 " autoplay controls></audio>
+<audio src="audios/guanacast-33.mp3" controls autocast ></audio>
+
+<audio preload="metadata"
+src="audios/audio infantil .mp3" controls></audio>
+<h2>Audios em compactaçoes diferentes</h2>
+<p>Sao 3 formas do mesmo audio para o navegador poder achar o arquivo e reproduzir caso um nao aceite tem o outro</p>
+
+<h2>Tem os arquivos</h2>
+<p>tem os arquivos de audio ogg,wav e mp3 temos que ter esses 3 formatos para ter mais compactaçoes no site</p>
+
+
+</body>
+</html>
