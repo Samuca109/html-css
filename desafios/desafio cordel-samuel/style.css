@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    padding: 80px;
+    border-radius: -20px;
+    font-size: 20px;
+
+}
+
+
+
+footer{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+footer > a{
+    color: aliceblue;
+}
