@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 html, body {
     min-height: 100vh;
 }
@@ -8,8 +12,13 @@ header{
     color: white;
     text-align: center;
     margin: auto;
-    padding: 20px;
+    padding: 50px;
     font-size: 1em;
+}
+header h1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+    font-size: 8vw;
 }
  a:hover {
     text-decoration: underline;
@@ -17,6 +26,7 @@ header{
  a {
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 section {
      padding: 10vh;
@@ -25,8 +35,27 @@ section {
    padding: 10vh;
    line-height: 35px;
 }
+section > p {
+    padding-bottom: 2em;
+    font-size: 1.1em;
+}
 section.imagem p {
-    background-color: rgba(255, 232, 232, 0.397);
+    background-color: rgba(12, 11, 11, 0.315); 
+    display: inline-block;
+    padding: 5px;
+}
+section.imagem {
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position:  center;
+}
+section#img02 {
+    background-image: url(imagens/background002.jpg);  
+    background-position: right center ;
 }
 
 section.imagem {
@@ -39,8 +68,11 @@ footer{
     background-color: black;
     text-align: center;
     padding: 20px;
+    margin: 10px;
+    padding-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 footer > a{
     color: aliceblue;
+    font-weight: bolder;
 }
