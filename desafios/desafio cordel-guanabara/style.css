@@ -16,44 +16,57 @@
 }
  html, body {
      background-color: white;
-     min-height: 100vh;
-     
+     min-height: 100vh;  
  }
 
- header {
-     background-color: black;
-     color: aliceblue;
-     text-align: center;
- }
- header h1 {
-     font-variant: small-caps;
-     padding-top: 20px;
-     font-size: 8vw;
- }
+            header {
+                background-color: black;
+                color: aliceblue;
+                text-align: center;
+            }
+            header h1 {
+                font-variant: small-caps;
+                padding-top: 20px;
+                font-size: 8vw;
+            }
 
- header p {
-    padding-bottom: 30px;
+            header p {
+                padding-bottom: 30px;
 
- }
- header a, footer a {
-     color: white;
-     text-decoration: none; 
-     font-weight: bolder;
- }
+            }
+            header a, footer a {
+                color: white;
+                text-decoration: none; 
+                font-weight: bolder;
+            }
 
- header a:hover, footer a:hover {
-    text-decoration: underline;
- }
+            header a:hover, footer a:hover {
+                text-decoration: underline;
+            }
 
  section {
     font-family: var(--fonte2);
-     padding: 10vh;
-     font-size: 1.2em;
-     line-height: 2em;
+    padding: 10vh;
+    font-size: 1.2em;
+    line-height: 2em;
+ }
+ section > p {
+     padding-bottom: 3em;
  }
 
  section.imagem {
     background-color: rgb(44, 43, 43);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0);
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#img01 {
+    background-image: url(./imagens/background001.jpg);
+    background-position: right center;
+}
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position:  center;
 }
 
  section.imagem > p  {
@@ -63,11 +76,9 @@
      padding: 5px;
  }
 
- 
-
- footer {
-     background-color: black;
-     color: white;
-     text-align: center;
-     padding: 10px;
- }
+            footer {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
