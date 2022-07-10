@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+      .cnome {
+        background-color: yellow;
+      }
+    </style>
+</head>
+<body>
+    <!--Tanto faz a forma que for usar os 3 jeitos sao bons de se fazer a tabela e alterar a coluna toda-->
+    <table>
+        <caption>
+            informaçoes
+        </caption>
+        <colgroup>
+            <col class="cnome" span="3">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="">
+        </colgroup>
+        <thead>
+            <th>Nome</th>
+            <th>sexo</th>
+            <th>idade</th>
+            <th>Profissao</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Samuel</td>
+                <td>Masculino</td>
+                <td>18</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Cristiano</td>
+                <td>Masculino</td>
+                <td>25</td>
+                <td>jogador</td>
+            </tr>
+            <tr>
+                <td>ronaldo</td>
+                <td>Masculino</td>
+                <td>45</td>
+                <td>lutador</td>
+            </tr>
+            <tr>
+                <td>Fatima</td>
+                <td>Feminino</td>
+                <td>25</td>
+                <td>apresentadora</td>
+            </tr>
+            <tr>
+                <td>fernado</td>
+                <td>Masculino</td>
+                <td>65</td>
+                <td>jogador</td>
+            </tr>
+            <tr>
+                <td>Jusciane</td>
+                <td>Masculino</td>
+                <td>18</td>
+                <td>jornalista</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

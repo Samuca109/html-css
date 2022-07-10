@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios</title>
+    <style>
+         table {
+            width: 500px;  
+            border-collapse: collapse;
+            position: relative;
+        }   
+        td, th {
+          border: 1px solid black;
+          padding: 20px;
+        }
+        tfoot, thead {
+            background-color: aqua;
+            text-align: center;
+            font-weight: bolder;
+        }
+        caption{
+            background-color: silver;
+            font-weight: bolder;
+            padding: 20px;
+            font-size: 1.5em;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: aqua;
+            
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: darkgray;
+            text-decoration: underline;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(104, 104, 248, 0.308);
+            font-weight: bolder;
+        }
+        #conteiner{
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafios da tabela</h1>
+    <h2>teste</h2>
+    <h3>so pra ver se a tela toda vai girar</h3>
+    <div id="conteiner">
+        <table>
+            <caption>
+                Populaçao de cada estado
+            </caption>
+            <thead>
+                <tr>
+                    <th>estado</th>
+                    <th  scope="col">Cidades</th>
+                    <th style="width: 50px;">Populaçao</th>
+                    <th>xxxxx</th>
+                    <th>  fffffff</th>
+                    <th>kkkkkkkkk</th>
+                    <th>hhhhhh</th>
+                    <th>ttttttttt</th>
+                    <th>yyyyyyyy</th>
+                    <th>aaaaaaaaaa</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr>
+                    <td>Região Nordeste </td>
+                    <td class="varias"> Alagoas
+                        Bahia Bahia,
+                         Ceará,
+                         Maranhão,
+                         Paraíba,
+                         Pernambuco,
+                         Piauí,
+                         Rio Grande do Norte,
+                         Sergipe</td>
+                         <td>57 667 842</td>
+                </tr>
+                <tr>
+                    <td>regiao norte</td>
+                     <td>Amapá, Acre
+                        Amapá,
+                        Amazonas,
+                        Pará,
+                        Rondônia,
+                        Roraima,
+                        Tocantins</td>
+                        <td> 18 906 962</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
